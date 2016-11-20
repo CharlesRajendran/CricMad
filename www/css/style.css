@@ -1,0 +1,10 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+h4.title_wrap {
+    /*in ionic it was nowrap so the long texts disapeared*/
+    white-space: normal;
+    /*height is given so the link below h4 will be always at the bottom*/
+    height: 5em;
+}
